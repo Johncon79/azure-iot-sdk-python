@@ -52,7 +52,7 @@ PROTOCOL = IoTHubTransportProvider.MQTT
 
 # String containing Hostname, Device Id & Device Key in the format:
 # "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"
-CONNECTION_STRING = "[Device Connection String]"
+CONNECTION_STRING = "HostName=IOTLabb1.azure-devices.net;DeviceId=Recon;SharedAccessKey="
 
 MSG_TXT = "{\"deviceId\": \"myPythonDevice\",\"windSpeed\": %.2f,\"temperature\": %.2f,\"humidity\": %.2f}"
 
